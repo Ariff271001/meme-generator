@@ -6,3 +6,4 @@ What I learned:
 - Functional Programming in React
 - Fetching data
 - Side effects
+- Testing
