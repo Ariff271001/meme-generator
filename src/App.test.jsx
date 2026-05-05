@@ -32,4 +32,17 @@ describe("App", () => {
     //Assert
     expect(screen.getByText("Code without coffee")).toBeInTheDocument();
   });
+
+  test("getting new image after clicking the button",async() => {
+    //Arrange
+    const user = userEvent.setup();
+    render(<App />);
+    const button = screen.getByRole('button');
+
+    //Act
+    await user.click(button)
+
+    //Assert
+    expect(screen.getAllByRole('img')[1].src).toContain('https://i.imgflip.com/1c1uej.jpg')
+  })
 });
