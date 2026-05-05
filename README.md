@@ -9,3 +9,4 @@ What I learned:
 - Testing
 - Mocking external services
 - Code coverage
+- Accessibility testing
