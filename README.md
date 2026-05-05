@@ -7,3 +7,5 @@ What I learned:
 - Fetching data
 - Side effects
 - Testing
+- Mocking external services
+- Code coverage
